@@ -2,8 +2,4 @@
 
 echo ''
 echo 'Build data:'
-echo $1 | jq '.'
-echo ''
-echo 'App data:'
-echo $2 | jq '.'
-echo ''
+cat /dev/stdin | jq '.'
