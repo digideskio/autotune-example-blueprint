@@ -7,3 +7,6 @@ if type "jq" > /dev/null 2>&1; then
 else
   cat /dev/stdin
 fi
+echo ''
+echo 'Environment variables:'
+printenv
