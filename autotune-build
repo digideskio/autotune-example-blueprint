@@ -2,4 +2,8 @@
 
 echo ''
 echo 'Build data:'
-cat /dev/stdin | jq '.'
+if ! type "jq" > /dev/null; then
+  cat /dev/stdin | jq '.'
+else
+  cat /dev/stdin
+fi
