@@ -13,9 +13,15 @@ echo "$INPUT_DATA" > $SAVE_DATA_TO
 echo ''
 echo 'Build data:'
 echo "$INPUT_DATA"
+
 echo ''
 echo 'Environment variables:'
 printenv
+
 echo ''
+echo 'Building the blueprint:'
+exec $BUILD_COMMAND
 
-
+echo ''
+echo 'Deploying the build:'
+exec $DEPLOY_COMMAND
