@@ -4,5 +4,17 @@
   "tags": ["Example", "App"],
   "thumbnail": "thumbnail.jpg",
   "authors": ["Ryan Mark <ryan.mark@voxmedia.com>"],
-  "schema": {}
+  "form": {
+    "schema": {
+      "type": "object",
+      "properties": {
+        "vertical": { "required": true, "enum": ["vox", "theverge", "eater"] }
+      }
+    },
+    "options": {
+      "fields": {
+        "vertical": { "type": "select", "label": "Vertical" }
+      }
+    }
+  }
 }
