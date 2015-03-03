@@ -6,14 +6,17 @@
   "authors": ["Ryan Mark <ryan.mark@voxmedia.com>"],
   "form": {
     "schema": {
+      "title": "Example blueprint",
+      "description": "stuff",
       "type": "object",
       "properties": {
-        "vertical": { "required": true, "enum": ["vox", "theverge", "eater"] }
-      }
-    },
-    "options": {
-      "fields": {
-        "vertical": { "type": "select", "label": "Vertical" }
+        "vertical": {
+          "title": "Vertical",
+          "description": "hello world?",
+          "type": "string",
+          "required": true,
+          "enum": ["Vox", "The Verge", "Eater"]
+        }
       }
     }
   }
