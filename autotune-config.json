@@ -15,7 +15,15 @@
           "description": "hello world?",
           "type": "string",
           "required": true,
-          "enum": ["Vox", "The Verge", "Eater"]
+          "enum": ["sbnation", "theverge", "polygon", "racked", "eater", "curbed", "vox"]
+        }
+      }
+    },
+    "options": {
+      "fields": {
+        "vertical": {
+          "type": "select",
+          "optionLabels": ["SBNation", "The Verge", "Polygon", "Racked", "Eater", "Curbed", "Vox"]
         }
       }
     }
