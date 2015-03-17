@@ -1,7 +1,8 @@
 {
   "name": "Example blueprint",
   "description": "Tityre, tu patulae recubans sub tegmine fagi  dolor. Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Quae vero auctorem tractata ab fiducia dicuntur. Me non paenitet nullum festiviorem excogitasse ad hoc. Quam temere in vitiis, legem sancimus haerentia.\n\n Cum ceteris in veneratione tui montes, nascetur mus. Phasellus laoreet lorem vel dolor tempus vehicula. Nihil hic munitissimus habendi senatus locus, nihil horum? Pellentesque habitant morbi tristique senectus et netus.",
-  "tags": ["Example", "App"],
+  "type": "App",
+  "tags": ["Example"],
   "thumbnail": "thumbnail.jpg",
   "authors": ["Ryan Mark <ryan.mark@voxmedia.com>"],
   "form": {
@@ -10,20 +11,21 @@
       "description": "stuff",
       "type": "object",
       "properties": {
-        "vertical": {
+        "theme": {
           "title": "Vertical",
           "description": "hello world?",
           "type": "string",
           "required": true,
-          "enum": ["sbnation", "theverge", "polygon", "racked", "eater", "curbed", "vox"]
+          "default": "default",
+          "enum": ["default", "sbnation", "theverge", "polygon", "racked", "eater", "curbed", "vox"]
         }
       }
     },
     "options": {
       "fields": {
-        "vertical": {
+        "theme": {
           "type": "select",
-          "optionLabels": ["SBNation", "The Verge", "Polygon", "Racked", "Eater", "Curbed", "Vox"]
+          "optionLabels": ["None", "SBNation", "The Verge", "Polygon", "Racked", "Eater", "Curbed", "Vox"]
         }
       }
     }
