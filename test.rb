@@ -2,7 +2,7 @@ require 'noop'
 
 require 'fileutils'
 
-Fileutils.mkdir('build')
+FileUtils.mkdir('build')
 open('build/index.html') do |fp|
   fp.write('<h1>Hello World!</h1>')
 end
