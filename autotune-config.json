@@ -3,7 +3,7 @@
   "description": "Tityre, tu patulae recubans sub tegmine fagi  dolor. Me non paenitet nullum festiviorem excogitasse ad hoc. Sed haec quis possit intrepidus aestimare tellus. Quae vero auctorem tractata ab fiducia dicuntur. Me non paenitet nullum festiviorem excogitasse ad hoc. Quam temere in vitiis, legem sancimus haerentia.\n\n Cum ceteris in veneratione tui montes, nascetur mus. Phasellus laoreet lorem vel dolor tempus vehicula. Nihil hic munitissimus habendi senatus locus, nihil horum? Pellentesque habitant morbi tristique senectus et netus.",
   "type": "app",
   "tags": ["Example"],
-  "themes": ["sbnation", "theverge", "polygon", "racked", "eater", "curbed", "vox"]
+  "themes": ["sbnation", "theverge", "polygon", "racked", "eater", "curbed", "vox"],
   "thumbnail": "thumbnail.jpg",
   "authors": ["Ryan Mark <ryan.mark@voxmedia.com>"],
   "form": {
